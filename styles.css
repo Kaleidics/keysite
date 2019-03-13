@@ -5,6 +5,55 @@ body {
     font-family: Verdana, sans-serif; 
     margin:0
 }
+
+header {
+    display: flex; 
+    justify-content: center;
+}
+
+#navbar {
+    width: 66%;
+    min-height: 5vh;
+    max-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 10;
+    font-weight: bold;
+    align-items: center;
+}
+
+.innerNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+.innerNav.west {
+    width: 50%;
+}
+
+.innerNav.west li a{
+    text-decoration: none;
+    color: #111;
+}
+
+.innerNav.east {
+    width: 20%;
+}
+
+.innerNav.east li a ion-icon {
+  font-size: 24px;
+  color: #111;
+}
+/* navbar fixed scroll */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .mySlides {
     display: none
 }
@@ -23,6 +72,7 @@ img {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
+  top: 5vh;
   margin: auto;
 }
 
