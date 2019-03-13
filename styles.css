@@ -59,6 +59,11 @@ header {
     top: 0;
     width: 100%;
 }
+
+.tagline {
+  text-align: center;
+  margin-top: 10vh;
+}
 .mySlides {
     display: none
 }
@@ -77,7 +82,7 @@ img {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  top: 5vh;
+  /* top: 25vh; */
   margin: auto;
 }
 
