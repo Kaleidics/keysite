@@ -61,6 +61,10 @@ header {
 #logo {
   width: 30px;
 }
+
+#logo:hover {
+    -webkit-filter: invert(100%) !important;
+}
 /* navbar fixed scroll */
 .sticky {
     position: fixed;
@@ -73,10 +77,12 @@ header {
   margin-top: 10vh;
 }
 .mySlides {
-    display: none
+  margin: 0 auto;
+    display: none;
 }
 .dash {
-    width: 100%;
+    height: 40vh;
+    /* width: 100vw; */
 }
 
 .dots {
@@ -88,9 +94,11 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  /* max-width: 1000px; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
-  /* top: 25vh; */
   margin: auto;
 }
 
