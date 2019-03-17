@@ -77,13 +77,20 @@ header {
   margin-top: 10vh;
 }
 .mySlides {
+  width: 100%;
   margin: 0 auto;
-    display: none;
+  display: none;
 }
+
+.mySlides img {
+  height: 70vh;
+}
+
 .dash {
-    height: 40vh;
-    width: 100vw;
+    /* height: 70vh; */
+    width: 100%;
 }
+
 
 .dots {
     text-align: center;
