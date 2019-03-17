@@ -25,9 +25,10 @@ header {
     padding: 0;
     margin: 0 auto;
     z-index: 10;
-    font-weight: bold;
+    font-weight: lighter;
     align-items: center;
-    background: #f3f3f3;
+    background: white;
+    margin-top: 2vh;
     padding-left: 16.667%;
     padding-right: 16.667%;
 }
