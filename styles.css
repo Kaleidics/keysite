@@ -170,6 +170,12 @@ img {
   background-color: #717171;
 }
 
+#endorsements {
+  padding-left: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 15vw;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
