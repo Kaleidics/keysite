@@ -200,6 +200,10 @@ section {
   margin: 0 auto;
 }
 
+.inner-content1 img {
+  width: 50%;
+}
+
 .inner-content1 .img-text {
   text-align: center;
 }
