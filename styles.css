@@ -178,11 +178,30 @@ img {
   background-color: #717171;
 }
 
+section {
+  margin-top: 10vh;
+}
+
+.section-header {
+  text-align: center;
+}
+
 #endorsements {
   padding-left: 15vw;
   display: flex;
   justify-content: space-evenly;
   padding-right: 15vw;
+}
+
+.inner-content1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.inner-content1 .img-text {
+  text-align: center;
 }
 /* Fading animation */
 .fade {
